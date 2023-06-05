@@ -36,5 +36,7 @@ DELETE delete-user :
 
 localhost:8080/delete-user?id={id}
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 API Documentation : https://documenter.getpostman.com/view/23538609/2s93sXbtzm
 
