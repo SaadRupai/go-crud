@@ -26,6 +26,7 @@ localhost:8080/update-user?id={id}
 
 Body raw(json)
 {
+
     "country" : "India"
     
 }
