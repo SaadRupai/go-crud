@@ -128,7 +128,7 @@ func updateUser(c echo.Context) error {
 
 }
 
-// delete user from users and activity_log table for a specific id
+// delete user from users and activity_log table for a specific id (general+bonus)
 func deleteUser(c echo.Context) error {
 	idStr := c.QueryParam("id")
 	id, err := strconv.ParseUint(idStr, 10, 64)
